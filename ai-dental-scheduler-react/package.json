@@ -1,19 +1,17 @@
 {
-  "name": "ai-dental-scheduler-react",
+  "name": "client",
   "version": "1.0.0",
-  "description": "AI Dental Scheduler - React Frontend",
+  "description": "AI Dental Scheduler - React Frontend (ChairSyncAI)",
+  "private": true,
   "main": "index.js",
-  "homepage": "https://your-username.github.io/your-repo-name",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^17.0.0",
-    "express": "^5.1.0",
-    "mongoose": "^8.16.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.3",
-    "scheduler": "^0.26.0",
-    "stripe": "^18.2.1"
+    "react-router-dom": "^7.6.3"
   },
   "devDependencies": {
     "@babel/core": "^7.27.7",
@@ -25,19 +23,13 @@
     "style-loader": "^4.0.0",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2",
-    "gh-pages": "^6.0.0"
+    "webpack-dev-server": "^5.2.2"
   },
-  "scripts": {
-    "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "frontend", "scheduler", "dental", "chairsyncai"],
+  "author": "Shivansh Singh",
   "license": "ISC"
 }
+
 
 
 
