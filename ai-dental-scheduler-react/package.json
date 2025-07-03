@@ -1,12 +1,13 @@
 {
   "name": "client",
   "version": "1.0.0",
-  "description": "AI Dental Scheduler - React Frontend (ChairSyncAI)",
+  "description": "ChairSyncAI – AI-Powered Dental Appointment Scheduler (React Frontend)",
   "private": true,
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -25,10 +26,19 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
   },
-  "keywords": ["react", "frontend", "scheduler", "dental", "chairsyncai"],
+  "keywords": [
+    "react",
+    "frontend",
+    "ai",
+    "scheduler",
+    "dentist",
+    "appointment",
+    "chairsyncai"
+  ],
   "author": "Shivansh Singh",
   "license": "ISC"
 }
+
 
 
 
