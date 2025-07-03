@@ -1,8 +1,9 @@
 {
   "name": "ai-dental-scheduler-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "AI Dental Scheduler - React Frontend",
   "main": "index.js",
+  "homepage": "https://your-username.github.io/your-repo-name",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.0.0",
@@ -24,22 +25,18 @@
     "style-loader": "^4.0.0",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2"
+    "webpack-dev-server": "^5.2.2",
+    "gh-pages": "^6.0.0"
   },
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC"
-}
-
-"homepage": "https://your-username.github.io/repo-name",
-
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
 }
 
 
