@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.testimonial-container {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f9f9ff;
+  font-family: 'Inter', sans-serif;
+}
+
+.testimonial-container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 650px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.stars {
+  font-size: 1.2rem;
+  color: #f7b500;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  background: #eee;
+  border-radius: 50%;
+}
+
+.role {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.dots {
+  margin-top: 15px;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background: #6a11cb;
+}

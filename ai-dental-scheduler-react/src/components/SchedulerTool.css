@@ -1,0 +1,41 @@
+.form-group {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-group input {
+  padding: 12px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #0f62fe;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn-group button {
+  margin: 0 8px;
+}
+
+.results {
+  margin-top: 24px;
+}
+
+.results .card {
+  background: #f9f9f9;
+  margin: 12px auto;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+

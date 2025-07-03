@@ -1,0 +1,47 @@
+/* src/components/AIDashboard.css */
+.ai-dashboard-section {
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #f5faff, #e8f0fe);
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+  font-family: 'Inter', sans-serif;
+}
+
+.ai-dashboard-section h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e3a8a;
+  margin-bottom: 40px;
+}
+
+.ai-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.ai-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.ai-card:hover {
+  transform: translateY(-6px);
+}
+
+.ai-card h3 {
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+.ai-card p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0f172a;
+}

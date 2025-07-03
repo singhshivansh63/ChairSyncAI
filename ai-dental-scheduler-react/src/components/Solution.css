@@ -1,0 +1,20 @@
+.section-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section-card ul li {
+  position: relative;
+  padding-left: 28px;
+  margin: 12px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.section-card ul li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #0f62fe;
+}

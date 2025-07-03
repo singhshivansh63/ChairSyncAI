@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.pricing-section {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding: 100px 20px 80px;
+  background: linear-gradient(to bottom, #f5f6ff, #ffffff);
+}
+
+.pricing-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #6a11cb;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: #6b7280;
+  margin-bottom: 60px;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.pricing-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 36px;
+  width: 320px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e7ff;
+  text-align: left;
+  position: relative;
+}
+
+/* ✅ Black color for paragraph text */
+.pricing-card p {
+  color: #000;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 45px rgba(106, 17, 203, 0.15);
+}
+
+.pricing-card h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #6a11cb;
+}
+
+.pricing-card .price {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #6a11cb;
+  margin-bottom: 24px;
+}
+
+.pricing-card .price span {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.pricing-card ul li {
+  padding: 10px 0;
+  color: #000000;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.pricing-card button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 6px 18px rgba(106, 17, 203, 0.25);
+}
+
+.pricing-card button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(106, 17, 203, 0.35);
+}
+
+.pricing-card.pro {
+  background: linear-gradient(145deg, #000, #000);
+  border: 2px solid #6a11cb;
+}
+
+.pricing-card.pro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border-radius: 20px 20px 0 0;
+}
+
+@media (max-width: 768px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+
+
+
+

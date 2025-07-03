@@ -1,0 +1,31 @@
+.robot-assistant-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.robot-icon {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.robot-icon:hover {
+  transform: scale(1.1);
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.robot-response {
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: 10px;
+}
